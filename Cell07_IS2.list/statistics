@@ -1,0 +1,12 @@
+! TYPEDSTREAM 1.1
+
+time_level 16688.720703
+time_total 18746.439453
+walltime_level 8995.000000
+walltime_total 10083.000000
+thread_time_level 16688.720703
+thread_time_total 18746.439453
+number_of_threads 2
+number_of_cpus 2
+host "gjmb.local"
+system "Darwin"

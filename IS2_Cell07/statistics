@@ -1,0 +1,12 @@
+! TYPEDSTREAM 1.1
+
+time_level 10853.089844
+time_total 13316.940430
+walltime_level 3798.000000
+walltime_total 4656.000000
+thread_time_level 10853.089844
+thread_time_total 13316.940430
+number_of_threads 3
+number_of_cpus 8
+host "mac1041-9.lmb.internal"
+system "Darwin"

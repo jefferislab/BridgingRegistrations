@@ -1,0 +1,11 @@
+! TYPEDSTREAM 1.1
+
+studylist {
+	num_sources 2
+}
+source {
+	studyname "/Volumes/JData/JPeople/Common/Neuroanatomy/ReferenceBrains/FCWB/FCWB-32xd.nrrd"
+}
+source {
+	studyname "/Users/jefferis/projects/ChiangReanalysis/Templates/JFRC/JFRCtemplate.ResampledToFCWB_01.nrrd"
+}
