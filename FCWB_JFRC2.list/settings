@@ -4,7 +4,7 @@ algorithm 3
 use_maxnorm yes
 exploration 26.0000000000
 accuracy 0.4000000000
-min_sampling 2.0000000000
+min_sampling 1.0000000000
 coarsest_resolution 8.0000000000
 use_original_data yes
 fast_mode yes
