@@ -1,6 +1,6 @@
 Introduction
 ============
-The fly brain is a highly stereotyped 3D structure.  A number of groups have now published 3D confocal image datasets where all images have been registered to a specific template brain. In order to co-visualise image data from different studies, data registered against different template brains must be brought into the same 3D coordinate space. This can be achieved by the applying a "bridging registration" which maps one template brain onto another.
+The fly brain is a highly stereotyped 3D structure.  A number of groups have now published 3D confocal image datasets where all images have been registered to a specific template brain. In order to co-visualise image data from different studies, data registered against different template brains must be brought into the same 3D coordinate space. This can be achieved by applying a "bridging registration" which maps one template brain onto another.
 
 Details
 =======
@@ -36,10 +36,10 @@ For details
 
 White space separated 3d coordinates can be converted (in either direction) using 
 
-    streamxform --inverse  <target_source.list> < source_coords.txt > target_coords.txt
-    streamxform <target_source.list> < target_coords.txt > sample_coords.txt
+    streamxform -- --inverse target_source.list < source_coords.txt > target_coords.txt
+    streamxform target_source.list < target_coords.txt > sample_coords.txt
 
-Note the use of the `--inverse` switch when mapping coordinates from source space to target space. This may be the opposite of what you expect but originates from the fact that in order to map a block of image data from source space to target space, the transformation that must actually be defined is the one that maps a regular grid of points in the target space back to sample locations in the source space.
+Note the use of the `--inverse` switch when mapping coordinates from source space to target space. This may be the opposite of what you expect but originates from the fact that in order to map a block of image data from source space to target space, the transformation that must actually be defined is the one that maps a regular grid of points in the target space back to sample locations in the source space. Note also the use of an extra `--` to separate the positional arguments from the other options when using `--inverse` to specify that a given registration should be inverted.
 
 For details
 
