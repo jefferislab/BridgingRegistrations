@@ -45,6 +45,21 @@ For details
 
     streamxform --help
 
+Example
+-------
+Map the tip of the protocerebral bridge from IS2 to JFRC2 space.
+
+    cd /path/to/BridgingRegistrations
+    echo 365 113 112 | streamxform -- --inverse JFRC2_IS2.list
+    # 570.24422 94.1575396 75.9619399
+
+Now map the location in JFRC2 space back to IS2:
+
+    echo 570.24422 94.1575396 75.9619399 | streamxform  JFRC2_IS2.list
+    # 365 113 112
+
+i.e. the round trip IS2->JFRC2->IS2 gives back the original coordinates.
+
 Limitations
 ===========
 These bridging registrations are rarely as accurate registrations for data acquired in the same lab on the same microscope. Nevertheless we find them to be very useful for comparative work across coordinate spaces.
