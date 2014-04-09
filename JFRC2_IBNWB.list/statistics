@@ -1,0 +1,12 @@
+! TYPEDSTREAM 2.4
+
+time_level 2086.5900000000
+time_total 4483.5000000000
+walltime_level 639.0000000000
+walltime_total 1372.0000000000
+thread_time_level 2086.5900000000
+thread_time_total 4483.5000000000
+number_of_threads 4
+number_of_cpus 8
+host "jefferis-mac-1-1g.lmb.internal"
+system "Darwin"

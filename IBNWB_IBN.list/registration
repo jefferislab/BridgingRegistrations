@@ -1,0 +1,13 @@
+! TYPEDSTREAM 2.4
+
+registration {
+	reference_study "refbrain/n-syb-GFP_shiftx_392_linear_blend.nrrd"
+	floating_study "images/n-syb-GFP.nrrd"
+	affine_xform {
+		xlate -0.16 0.08 -0.305 
+		rotate 0 0.06067942133 -0.04955263482 
+		scale 0.998776908 1.000611546 1 
+		shear 0 0 0 
+		center 289.28 163.84 95.175 
+	}
+}

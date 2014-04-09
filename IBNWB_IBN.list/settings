@@ -1,0 +1,15 @@
+! TYPEDSTREAM 2.4
+
+exploration 8.0000000000
+accuracy 0.4000000000
+min_sampling 1.0000000000
+coarsest_resolution -1.0000000000
+metric 0
+optimizer_step_factor 0.5000000000
+no_switch no
+preprocessing_ref {
+	dataclass "GreyLevel"
+}
+preprocessing_flt {
+	dataclass "GreyLevel"
+}
