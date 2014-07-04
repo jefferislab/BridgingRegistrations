@@ -2,6 +2,8 @@ Introduction
 ============
 The fly brain is a highly stereotyped 3D structure.  A number of groups have now published 3D confocal image datasets where all images have been registered to a specific template brain. In order to co-visualise image data from different studies, data registered against different template brains must be brought into the same 3D coordinate space. This can be achieved by applying a "bridging registration" which maps one template brain onto another.
 
+![bridgingregistrations](doc/brains_and_bridges_lowres.png)
+
 Details
 =======
 Each bridging registration in this repository maps one common template brain onto another. The naming convention is `TARGET_SOURCE.list` where TARGET is a short name for the final template brain and SOURCE is a short name for the template that defines the starting space. Thus to map image data in the IS2 space (Cachero, Ostrovsky et al 2010) to the JFRC2 template space (see [virtual fly brain](http://www.virtualflybrain.org) for details) one would want `JFRC2_IS2.list`. 
