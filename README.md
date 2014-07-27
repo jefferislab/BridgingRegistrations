@@ -63,6 +63,19 @@ Now map the location in JFRC2 space back to IS2:
 
 i.e. the round trip JFRC2->IS2->JFRC2 gives back the original coordinates. Note that the `JFRC2_IS2.list` registration can map images in IS2 space to JFRC2 but must be inverted to do the same for points. 
 
+Bridging Sequence Example
+-------------------------
+You can combine multiple registrations for brains that are not directly connected e.g. to convert from JFRC2 via IS2 to FCWB
+
+     # in 2 steps
+     echo 365 113 112 | streamxform -- JFRC2_IS2.list | streamxform -- --inverse FCWB_IS2.list
+     # 324.737527 126.474364 85.6008982
+     # combining both into single stramxform command
+     echo 365 113 112 | streamxform -- JFRC2_IS2.list --inverse FCWB_IS2.list 
+     # 324.737527 126.474363 85.6008982 
+
+note that transformations are listed from left to right in the order that they are applied and once again that for streamxform transforming points with the `--inverse` transforms them from sample to reference.
+
 Limitations
 ===========
 These bridging registrations are rarely as accurate registrations for data acquired in the same lab on the same microscope. Nevertheless we find them to be very useful for comparative work across coordinate spaces.
