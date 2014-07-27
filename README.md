@@ -49,18 +49,19 @@ For details
 
 Example
 -------
-Map the (fly's) left tip of the protocerebral bridge from IS2 to JFRC2 space.
+Map the (fly's) left tip of the protocerebral bridge from JFRC2 to IS2 space.
 
     cd /path/to/BridgingRegistrations
-    echo 365 113 112 | streamxform -- --inverse JFRC2_IS2.list
-    # 570.24422 94.1575396 75.9619399
+    echo 365 113 112 | streamxform -- JFRC2_IS2.list
+    # 196.857602 135.684389 153.386743 
+    # which is close to the manually defined position 198 134 150
 
 Now map the location in JFRC2 space back to IS2:
 
-    echo 570.24422 94.1575396 75.9619399 | streamxform  JFRC2_IS2.list
+    echo 196.857602 135.684389 153.386743 | streamxform -- --inverse JFRC2_IS2.list
     # 365 113 112
 
-i.e. the round trip IS2->JFRC2->IS2 gives back the original coordinates.
+i.e. the round trip JFRC2->IS2->JFRC2 gives back the original coordinates. Note that the `JFRC2_IS2.list` registration can map images in IS2 space to JFRC2 but must be inverted to do the same for points. 
 
 Limitations
 ===========
