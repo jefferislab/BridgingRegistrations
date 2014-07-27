@@ -49,7 +49,7 @@ For details
 
 Example
 -------
-Map the tip of the protocerebral bridge from IS2 to JFRC2 space.
+Map the (fly's) left tip of the protocerebral bridge from IS2 to JFRC2 space.
 
     cd /path/to/BridgingRegistrations
     echo 365 113 112 | streamxform -- --inverse JFRC2_IS2.list
