@@ -1,0 +1,11 @@
+! TYPEDSTREAM 1.1
+
+studylist {
+	num_sources 2
+}
+source {
+	studyname "refbrain/JFRC2.nrrd"
+}
+source {
+	studyname "images/DPX_Standard2013_01_calibrated_0.475um.nrrd"
+}
