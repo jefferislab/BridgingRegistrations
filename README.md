@@ -15,17 +15,20 @@ All bridging registrations were constructed with the aid of the open source Comp
 Usage
 =====
 
-You can then use these registrations directly with CMTK, but we
+You can use these registrations directly with CMTK command line tools, but we
 also strongly recommend that you consider using the [nat.flybrains](https://github.com/jefferislab/nat.flybrains)
-R package to co-ordinate – especially useful if you are dealing with neurons or surface models
-rather than points and raw image data. 
+R package to co-ordinate your bridging work. This isespecially useful if you are dealing with neurons or surface models
+rather than points and raw image data since the R packages will look after extracting 3D coordinates
+from these objects and putting them back again. The R functions you will be interested in are `xform_brain`
+from the `nat.templatebrains` package (on which `nat.flybrains` depends) and the generic `xform` function
+which handles transforms of all kinds of objects (from the core [`nat`](https://github.com/jefferis/nat) package).
 
 Assuming that you are using the registrations directly, first download (or git clone) this repository. 
 
 CMTK Commandline tools
 ----------------------
 
-all the commands below use CMTK command line tools directly. Depending on how cmtk has been installed
+All the commands below use CMTK command line tools directly. Depending on how cmtk has been installed
 you may need to preface each command with `cmtk` e.g.
 
 ```
