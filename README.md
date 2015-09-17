@@ -15,12 +15,34 @@ All bridging registrations were constructed with the aid of the open source Comp
 Usage
 =====
 
-First download (or git clone) this repository
+You can then use these registrations directly with CMTK, but we
+also strongly recommend that you consider using the [nat.flybrains](https://github.com/jefferislab/nat.flybrains)
+R package to co-ordinate – especially useful if you are dealing with neurons or surface models
+rather than points and raw image data. 
 
-We recommend that you convert all images to the [NRRD format](http://teem.sourceforge.net/nrrd/). [Fiji/ImageJ](http://fiji.sc) can read and write this format.
+Assuming that you are using the registrations directly, first download (or git clone) this repository. 
+
+CMTK Commandline tools
+----------------------
+
+all the commands below use CMTK command line tools directly. Depending on how cmtk has been installed
+you may need to preface each command with `cmtk` e.g.
+
+```
+    cmtk reformatx --floating sample_image.nrrd template_brain.nrrd target_source.list
+```
+rather than
+
+```
+    reformatx --floating sample_image.nrrd template_brain.nrrd target_source.list
+```
+
+`cmtk` is a wrapper script which is the only thing that some CMTK installations will make visible in your path.
 
 Image data
 ----------
+
+We recommend that you convert all images to the [NRRD format](http://teem.sourceforge.net/nrrd/). [Fiji/ImageJ](http://fiji.sc) can read and write this format. Then basic usage is as follows:
 
     reformatx --floating sample_image.nrrd template_brain.nrrd target_source.list
 
