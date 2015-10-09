@@ -1,0 +1,12 @@
+! TYPEDSTREAM 2.4
+
+time_level 5177.2800000000
+time_total 6489.8900000000
+walltime_level 1776.0000000000
+walltime_total 2201.0000000000
+thread_time_level 5177.2800000000
+thread_time_total 6489.8900000000
+number_of_threads 4
+number_of_cpus 8
+host "lithium.local"
+system "Darwin"
