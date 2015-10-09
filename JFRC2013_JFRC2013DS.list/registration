@@ -1,0 +1,13 @@
+! TYPEDSTREAM 2.4
+
+registration {
+	reference_study "refbrain/JFRC2013.nrrd"
+	floating_study "images/JFRC2013DS_01.nrrd"
+	affine_xform {
+		xlate -3.22 -1.63 -32.34 
+		rotate -0.04361474047 -0 -0 
+		scale 0.9885102869 0.988864861 0.6040019614 
+		shear 0 0 0.0007726069024 
+		center 275.31 137.56 82.25 
+	}
+}
