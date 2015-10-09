@@ -1,0 +1,11 @@
+! TYPEDSTREAM 2.4
+
+studylist {
+	num_sources 2
+}
+source {
+	studyname "refbrain/jfrc2014_63x_cal_01.nrrd"
+}
+source {
+	studyname "images/jfrc2014_20x_cal_01.nrrd"
+}
