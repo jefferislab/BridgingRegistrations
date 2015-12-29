@@ -17,7 +17,7 @@ Usage
 
 You can use these registrations directly with CMTK command line tools, but we
 also strongly recommend that you consider using the [nat.flybrains](https://github.com/jefferislab/nat.flybrains)
-R package to co-ordinate your bridging work. This isespecially useful if you are dealing with neurons or surface models
+R package to co-ordinate your bridging work. This is especially useful if you are dealing with neurons or surface models
 rather than points and raw image data since the R packages will look after extracting 3D coordinates
 from these objects and putting them back again. The R functions you will be interested in are `xform_brain`
 from the `nat.templatebrains` package (on which `nat.flybrains` depends) and the generic `xform` function
