@@ -1,0 +1,12 @@
+! TYPEDSTREAM 2.4
+
+time_level 4583.0300000000
+time_total 5649.0700000000
+walltime_level 1367.0000000000
+walltime_total 1688.0000000000
+thread_time_level 0.0000000000
+thread_time_total 0.0000000000
+number_of_threads 4
+number_of_cpus 112
+host "fmb412.lmb.internal"
+system "Linux"

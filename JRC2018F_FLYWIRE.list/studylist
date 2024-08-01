@@ -1,0 +1,11 @@
+! TYPEDSTREAM 2.4
+
+studylist {
+	num_sources 2
+}
+source {
+	studyname "refbrain/JRC2018_FEMALE_38um_iso_16bit.nrrd"
+}
+source {
+	studyname "images/flywireSC_2gb_01.nrrd"
+}
