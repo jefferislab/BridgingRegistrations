@@ -1,0 +1,12 @@
+! TYPEDSTREAM 2.4
+
+time_level 2841.3300000000
+time_total 5161.1700000000
+walltime_level 893.0000000000
+walltime_total 1643.0000000000
+thread_time_level 2841.3300000000
+thread_time_total 5161.1700000000
+number_of_threads 4
+number_of_cpus 8
+host "Seba-Cachero-M1-MBP.local"
+system "Darwin"

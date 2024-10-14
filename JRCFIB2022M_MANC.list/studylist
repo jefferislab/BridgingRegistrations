@@ -1,0 +1,11 @@
+! TYPEDSTREAM 2.4
+
+studylist {
+	num_sources 2
+}
+source {
+	studyname "refbrain/vnc-tbar-vol-512nm-g1.nrrd"
+}
+source {
+	studyname "images/maleCNS.VNC.fiji_01.nrrd"
+}
